@@ -51,8 +51,8 @@ class App extends Component {
 
     return (
       <div className="App">
-      <button onClick={() => this.handleFilterCick('male')}>Male</button>
-      <button onClick={() => this.handleFilterCick('female')}>Female</button>
+      <button onClick={() => this.handleFilterClick('male')}>Male</button>
+      <button onClick={() => this.handleFilterClick('female')}>Female</button>
       
         {characters}
       </div>
